@@ -45,7 +45,6 @@ Verify the installation:
 ```bash
 riscv32-unknown-elf-gcc --version
 iverilog -V
-vvp -V
 gtkwave --version
 ```
 
