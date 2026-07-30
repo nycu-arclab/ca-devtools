@@ -56,9 +56,9 @@ The tools are redistributed under their respective upstream licenses.
 
 Source code and license information are available from the upstream projects:
 
-* RISC-V GNU Compiler Toolchain: `riscv-collab/riscv-gnu-toolchain`
-* Icarus Verilog: `steveicarus/iverilog`
-* GTKWave: `gtkwave/gtkwave`
+* [RISC-V GNU Compiler Toolchain](https://github.com/riscv-collab/riscv-gnu-toolchain)
+* [Icarus Verilog](https://github.com/steveicarus/iverilog)
+* [GTKWave](https://github.com/gtkwave/gtkwave)
 
 Copyright remains with the respective upstream authors and contributors.
 
