@@ -45,6 +45,48 @@ riscv32-unknown-elf-gcc --version
 iverilog -V
 ```
 
+## macOS Installation
+
+Download the tools:
+
+```bash
+cd ~
+
+curl -LO https://github.com/nycu-arclab/ca-devtools/releases/download/apple_darwin_2026/riscv32-unknown-elf-gcc-14.2.0-apple-darwin.tar.gz
+
+curl -LO https://github.com/nycu-arclab/ca-devtools/releases/download/apple_darwin_2026/iverilog-12-macos.tar.gz
+```
+
+Install the tools:
+
+```bash
+mkdir -p ~/.local
+
+tar -xzvf riscv32-unknown-elf-gcc-14.2.0-apple-darwin.tar.gz -C ~/.local
+
+tar -xzvf iverilog-12-macos.tar.gz -C ~/.local
+```
+
+Add the tools to `PATH`:
+
+```bash
+echo 'export PATH="$HOME/.local/riscv/bin:$HOME/.local/iverilog-12/bin:$PATH"' >> ~/.zshrc
+```
+
+Verify the installation:
+
+```bash
+riscv32-unknown-elf-gcc --version
+iverilog -V
+```
+
+Then verify the installation again:
+
+```bash
+riscv32-unknown-elf-gcc --version
+iverilog -V
+```
+
 ## Licensing
 
 The distributed binaries were built without modifications to the upstream source code. This repository does not introduce additional licensing terms beyond those of the respective upstream projects.
